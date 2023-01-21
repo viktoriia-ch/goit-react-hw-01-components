@@ -17,11 +17,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   padding-bottom: 10px;
 }
 
 .avatar {
   display: block;
+
   width: 250px;
   padding-top: 10px;
 }
@@ -40,15 +42,16 @@
 .stats {
   display: flex;
   justify-content: space-around;
+
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   font-size: 15px;
   background-color: #008080;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   list-style: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .item {
