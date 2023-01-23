@@ -1,6 +1,6 @@
-import styles from './friendList.module.css';
-import FriendListItem from './FriendListItem/FriendListItem';
 import PropTypes from 'prop-types';
+import FriendListItem from './FriendListItem/FriendListItem';
+import styles from './friendList.module.css';
 
 const FriendList = ({ friends }) => {
   const allFriends = friends.map(friend => (
@@ -21,7 +21,7 @@ FriendList.propTypes = {
     PropTypes.shape({
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool,
+      isOnline: PropTypes.bool.isRequired,
       id: PropTypes.number.isRequired,
     })
   ),

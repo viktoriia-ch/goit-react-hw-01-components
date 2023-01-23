@@ -1,5 +1,5 @@
-import styles from './friendListItem.module.css';
 import PropTypes from 'prop-types';
+import styles from './friendListItem.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   const fullClassName = isOnline
